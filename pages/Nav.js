@@ -8,7 +8,7 @@ export default function Nav() {
         <button className="bg-primary rounded-lg p-2 mr-2">
           <FaSun className="text-neutral-200 text-lg" />
         </button>
-        <button className="bg-accent rounded-lg py-1 px-3 text-neutral-800">
+        <button className="bg-accent rounded-lg py-1 px-3 text-neutral-800 hover:shadow-lg hover:shadow-accent/25 hover:-translate-y-0.5">
           Contact me
         </button>
       </div>

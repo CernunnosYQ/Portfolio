@@ -17,7 +17,7 @@ export default function LatestProjects(props) {
 
   useEffect(() => {
     setLoading(true);
-    fetch("/api/projects")
+    fetch("/api/Projects")
       .then((res) => res.json())
       .then((data) => {
         setData(data);
