@@ -1,10 +1,7 @@
 import Head from "next/head";
-import { SiTailwindcss } from "react-icons/si";
 import {
   FaGithub,
   FaLinkedin,
-  FaPython,
-  FaReact,
   FaTwitter,
 } from "react-icons/fa";
 
